@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>AnoopShivadas - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>#BELEIVE</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Anoop K Shivadas</h1>
+                <p class="hero-subtitle">Aspiring Front-End Developer</p>
+                <button class="cta-button" onclick="scrollToSection('projects')">
+                    View My Work
+                </button>
+            </div>
+            <div class="hero-decoration">
+                <div class="floating-element"></div>
+                <div class="floating-element"></div>
+                <div class="floating-element"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p class="about-text">
+                   Hello! I am Anoop K. Shivadas, a dedicated Web Developer with experience in building modern web applications. 
+                   I have a strong background in both front-end and back-end technologies, and I enjoy crafting user-friendly designs. 
+                   My interests include learning about new frameworks, contributing to open-source, and constantly improving my coding skills.
+                   I thrive in collaborative environments and am always eager to tackle challenging problems. 
+                   With a solid foundation in computer science, I focus on writing clean, maintainable code and following best practices. 
+                </p>
+                <div class="skills">
+                    <div class="skill-badge">
+                        <div class="skill-icon">
+                            <span><i class="fab fa-html5"></i></span>
+                        </div>
+                        <span class="skill-name">HTML</span>
+                    </div>
+                    <div class="skill-badge">
+                        <div class="skill-icon">
+                            <span><i class="fab fa-css3-alt"></i></span>
+                        </div>
+                        <span class="skill-name">CSS</span>
+                    </div>
+                    <div class="skill-badge">
+                        <div class="skill-icon">
+                            <span><i class="fab fa-js-square"></i></span>
+                        </div>
+                        <span class="skill-name">JavaScript</span>
+                    </div>
+                    <div class="skill-badge">
+                        <div class="skill-icon">
+                            <span><i class="fab fa-java"></i></span>
+                        </div>
+                        <span class="skill-name">Java</span>
+                    </div>
+                    <div class="skill-badge">
+                        <div class="skill-icon">
+                            <span><i class="fab fa-python"></i></span>
+                        </div>
+                        <span class="skill-name">Pyhton</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-thumbnail">
+                        <div class="thumbnail-placeholder">
+                            <span class="calculator-icon">🧮</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Web Calculator</h3>
+                        <p class="project-description">
+                            A sleek, responsive calculator built with vanilla JavaScript. 
+                            Features a modern dark theme UI with smooth animations and 
+                            full arithmetic functionality.
+                        </p>
+                        <a href="https://anoopshivadas.github.io/Calculator/" class="project-link" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-thumbnail">
+                        <div class="thumbnail-placeholder">
+                            <span class="quiz-icon">🍽️</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Restaurant Website</h3>
+                        <p class="project-description">
+                           A responsive, user-friendly restaurant landing page showcasing menu items, reservation/contact options, and brand identity. 
+                           Designed to provide visitors with essential information (menu, hours, location) and an engaging browsing experience.
+                        </p>
+                        <a href="https://anoopshivadas.github.io/Restaurant_page/" class="project-link" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-thumbnail">
+                        <div class="thumbnail-placeholder">
+                            <span class="quiz-icon">❄️</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Temperature Converter</h3>
+                        <p class="project-description">
+                           A sleek and modern web application to convert temperatures between Celsius, Fahrenheit, and Kelvin. 
+                           Built using only HTML, CSS, and JavaScript, this tool is fully responsive and designed with a cold, dark-themed aesthetic.
+                        </p>
+                        <a href="https://anoopshivadas.github.io/Temperature_Converter-/" class="project-link" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-thumbnail">
+                        <div class="thumbnail-placeholder">
+                            <span class="quiz-icon">🖼️</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Hover Image Slider</h3>
+                        <p class="project-description">
+                           This is a simple HTML and CSS project that displays a set of images with hover effects. 
+                           When you hover over an image, an overlay appears showing the the Place and Country. This project is useful for showcasing image transitions and UI interactions using only HTML and CSS.
+                        </p>
+                        <a href="https://anoopshivadas.github.io/Hover-Images/" class="project-link" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-thumbnail">
+                        <div class="thumbnail-placeholder">
+                            <span class="quiz-icon">🎚️</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Vertical Slider WebPage</h3>
+                        <p class="project-description">
+                           A smooth and interactive vertical image slider built using HTML, CSS, and JavaScript. 
+                           This slider is ideal for showcasing products, portfolios, or themed content with full-page visuals and accompanying text.
+                        </p>
+                        <a href="https://anoopshivadas.github.io/Vertical_Slider/" class="project-link" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-thumbnail">
+                        <div class="thumbnail-placeholder">
+                            <span class="quiz-icon">🕧</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Theme Clock</h3>
+                        <p class="project-description">
+                           A stylish analog & digital clock with light/dark theme toggle built with HTML, CSS, and JavaScript. 
+                           Responsive design centers in viewport and adapts to different screen sizes.
+                        </p>
+                        <a href="https://anoopshivadas.github.io/Theme_Clock/" class="project-link" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p class="contact-text">
+                    Have a project in mind or want to collaborate? 
+                    I'd love to hear from you!
+                </p>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input 
+                            type="text" 
+                            id="name" 
+                            name="name" 
+                            placeholder="Your Name"
+                            class="form-input"
+                            required
+                        >
+                    </div>
+                    <div class="form-group">
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="email" 
+                            placeholder="Your Email"
+                            class="form-input"
+                            required
+                        >
+                    </div>
+                    <div class="form-group">
+                        <textarea 
+                            id="message" 
+                            name="message" 
+                            placeholder="Your Message"
+                            class="form-textarea"
+                            rows="5"
+                            required
+                        ></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Anoop Shivadas. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
